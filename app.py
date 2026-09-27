@@ -176,11 +176,7 @@ st.markdown(
         padding: 22px 24px 10px 24px; box-shadow: 0 8px 22px rgba(31,36,48,0.06);
         margin-top: 4px; margin-bottom: 18px;
     }}
-    /* Keep camera image from growing too tall */
-    .st-key-cam_card img {{
-        max-height: 220px !important;
-        object-fit: contain;
-    }}
+  
          
     .card-title {{ font-size: 0.9rem; color: {TEXT_MUTED}; font-weight: 700; margin-bottom: 2px; }}
     .card-total {{ font-size: 1.7rem; font-weight: 800; color: {TEXT_DARK}; margin-bottom: 4px; }}
